@@ -23,7 +23,7 @@ public class Renderer {
         this.filename = filename;
     }
 
-    public void drawPoint(int x, int y, Color color) {
+    public void drawPoint(int x, int y) {
         int white = 255 | (255 << 8) | (255 << 16) | (255 << 24);
         render.setRGB(x, y, white);
     }
@@ -133,7 +133,7 @@ public class Renderer {
         int y = y0;
 
         for (int x = x0; x < x1; x++) {
-            drawPoint(x, y, new Color(255, 255, 0));
+            drawPoint(x, y);
             if (D > 0) {
                 y = y + yi;
                 D = D + (2 * (dy - dx));
@@ -155,7 +155,7 @@ public class Renderer {
         int x = x0;
 
         for (int y = y0; y < y1; y++) {
-            drawPoint(x, y, new Color(0, 0, 0));
+            drawPoint(x, y);
             if (D > 0) {
                 D = D + (2 * (dx - dy));
             }else{
