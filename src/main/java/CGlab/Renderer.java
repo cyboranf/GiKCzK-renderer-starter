@@ -8,7 +8,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 public class Renderer {
-
+//x
     public enum LineAlgo { NAIVE, DDA, BRESENHAM, BRESENHAM_INT; }
 
     private BufferedImage render;
