@@ -26,7 +26,10 @@ public class App {
 
         Renderer mainRenderer = new Renderer(filePath);
         mainRenderer.clear();
-        mainRenderer.drawPoint(100, 100);
+//        mainRenderer.drawPoint(100, 100, Color.cyan);
+
+        mainRenderer.drawTriangle(new Vec2f(10,10),new Vec2f(10,30), new Vec2f(40,10), new Color(255,0,0));
+
         try {
             mainRenderer.save();
         } catch (IOException ex) {
