@@ -158,10 +158,39 @@ public class Renderer {
             drawPoint(x, y);
             if (D > 0) {
                 D = D + (2 * (dx - dy));
-            }else{
-                D = D + 2*dx;
+            } else {
+                D = D + 2 * dx;
             }
         }
+    }
 
+
+    //TODO: metoda potrzebna do iloczynu wektorowego
+    public Vec3f crossProduct(Vec3f w1, Vec3f w2) {
+        float x = w1.y * w2.z - w1.z * w2.y;
+        float y = w1.z * w2.x - w1.x * w2.z;
+        float z = w1.x * w2.y - w1.y * w2.x;
+        return new Vec3f(x, y, z);
+    }
+
+
+    //TODO: metoda barycentric: realizuje obliczanie wspólrzędnych barycentrycznych
+    public Vec3f barycentric(Vec2f A, Vec2f B, Vec2f C, Vec2f P) {
+        //Wspolrzedne x wektorów: AB, AC oraz PA
+        Vec3f v1 = new Vec3f((B.x - A.x), (C.x - A.x), (A.x - P.x));
+
+        //Wspolrzedne y wektorow: AB, AC oraz PA
+        Vec3f v2 = new Vec3f((B.y - A.y), (C.y - A.y), (A.y - P.y));
+
+        //Iloczyn wektorowy v1 i v2
+        Vec3f cross = crossProduct(v1, v2);
+
+        //Wektor postaci: cross.x / cross.z , cross.y / cross.z
+        Vec2f uv = new Vec2f(cross.x / cross.z, cross.y / cross.z);
+
+        //Wspolrzedne barycentryczne, uv.x, uv.y, 1 - uv.x - uv.y
+        Vec3f barycentric = new Vec3f(uv.x, uv.y, 1 - uv.x - uv.y);
+
+        return barycentric;
     }
 }
