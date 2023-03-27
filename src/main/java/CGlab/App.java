@@ -28,7 +28,7 @@ public class App {
         mainRenderer.clear();
 //        mainRenderer.drawPoint(100, 100, Color.cyan);
 
-        mainRenderer.drawTriangle(new Vec2f(10,10),new Vec2f(10,30), new Vec2f(40,10), new Color(255,0,0));
+        mainRenderer.drawTriangle(new Vec2f(10,10),new Vec2f(10,30), new Vec2f(40,10), Color.GREEN);
 
         try {
             mainRenderer.save();

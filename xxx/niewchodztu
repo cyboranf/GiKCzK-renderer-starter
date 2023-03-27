@@ -1,0 +1,38 @@
+    public int minimax(boolean maximizing, int[][] board) {
+
+        if (gameOver(board)) return scores(board);
+
+        var results = new ArrayList<Integer>();
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (board[i][j] == 0) {
+
+                    board[i][j] = maximizing ? 1 : -1;
+                    results.add(minimax(!maximizing, board));
+
+                    board[i][j] = 0;
+                } else {
+                    if (maximizing) results.add(Integer.MIN_VALUE);
+                    else results.add(Integer.MAX_VALUE);
+                }
+            }
+        }
+
+        int bestResult;
+
+        if (maximizing) bestResult = Integer.MIN_VALUE;
+        else bestResult = Integer.MAX_VALUE;
+
+        for (int e : results) {
+            if (maximizing) {
+                if (e > bestResult) bestResult = e;
+            } else {
+                if (e < bestResult) bestResult = e;
+            }
+        }
+
+        indexOfBestResult = results.indexOf(bestResult);
+
+        return bestResult;
+    }
