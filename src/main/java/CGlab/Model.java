@@ -15,6 +15,15 @@ public class Model {
     public Vec3f getVertex(int index) {
         return vertexList.get(index);
     }
+    public void translate(Vec3f v) {
+        for (int i = 0; i < vertexList.size(); i++) {
+            Vec3f translatedVertex = vertexList.get(i);
+            translatedVertex.x += v.x;
+            translatedVertex.y += v.y;
+            translatedVertex.z += v.z;
+            vertexList.set(i,translatedVertex);
+        }
+    }
 
     public void readOBJ(String path) throws IOException {
         vertexList = new ArrayList < > ();
