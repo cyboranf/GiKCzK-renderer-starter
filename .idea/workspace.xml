@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75cd3537-5d14-4006-b13c-580f64f97b7b" name="Changes" comment="ex3 -done">
-      <change afterPath="$PROJECT_DIR$/xxx/niewchodztu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="75cd3537-5d14-4006-b13c-580f64f97b7b" name="Changes" comment="model -added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CGlab/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CGlab/RandomColorRenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CGlab/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CGlab/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CGlab/Renderer$LineAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CGlab/Renderer$LineAlgo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CGlab/Renderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CGlab/Renderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/Vec3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/Vec3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/Vec3i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/Vec3i.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/student/Desktop/GiKCzK-renderer-starter&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/student/Desktop/wzor/GiKCzK-renderer"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\student\Desktop\GiKCzK-renderer-starter\xxx" />
@@ -152,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679907340194</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="project -cleared">
+      <created>1681718869077</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681718869077</updated>
+    </task>
+    <task id="LOCAL-00011" summary="model -added">
+      <created>1681719095748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681719095748</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +184,8 @@
     <MESSAGE value="ex1 -repaired" />
     <MESSAGE value="ex2 -done" />
     <MESSAGE value="ex3 -done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex3 -done" />
+    <MESSAGE value="project -cleared" />
+    <MESSAGE value="model -added" />
+    <option name="LAST_COMMIT_MESSAGE" value="model -added" />
   </component>
 </project>

@@ -28,7 +28,7 @@ public class App {
         mainRenderer.clear();
 //        mainRenderer.drawPoint(100, 100, Color.cyan);
 
-        mainRenderer.drawTriangle(new Vec2f(10,10),new Vec2f(10,30), new Vec2f(40,10), Color.GREEN);
+        mainRenderer.drawTriangle(new Vec2f(10,10),new Vec2f(10,30), new Vec2f(40,10), new Color());
 
         try {
             mainRenderer.save();
@@ -38,6 +38,6 @@ public class App {
     }
 
     public String getVersion() {
-	return this.version;
+        return this.version;
     }
 }
