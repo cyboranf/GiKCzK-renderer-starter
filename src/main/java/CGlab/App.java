@@ -43,9 +43,16 @@ public class App {
         mainRenderer.render(jelen);
         jelen.translate(new Vec3f(0.3f, 0.3f, 0.3f));
 
+        FlatShadingRenderer mainRenderer2 = new FlatShadingRenderer("img/flatJelen.png", 1000, 1000, "NAIVE");
+        Model jelen2 = new Model();
+        jelen2.readOBJ("deer.obj");
+        mainRenderer2.clear();
+        mainRenderer2.render(jelen2);
+        jelen2.translate(new Vec3f(0.3f, 0.3f, 0.3f));
 
         try {
             mainRenderer.save();
+            mainRenderer2.save();
         } catch (IOException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
         }

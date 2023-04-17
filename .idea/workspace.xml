@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75cd3537-5d14-4006-b13c-580f64f97b7b" name="Changes" comment="model -added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CGlab/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CGlab/RandomColorRenderer.java" afterDir="false" />
+    <list default="true" id="75cd3537-5d14-4006-b13c-580f64f97b7b" name="Changes" comment="RandomColorRenderer jelen -done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CGlab/FlatShadingRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CGlab/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CGlab/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/Vec3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/Vec3f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CGlab/Vec3i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CGlab/Vec3i.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681719095748</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="project -repaired">
+      <created>1681720510093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681720510093</updated>
+    </task>
+    <task id="LOCAL-00013" summary="RandomColorRenderer jelen -done">
+      <created>1681721467812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681721467812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +204,8 @@
     <MESSAGE value="ex3 -done" />
     <MESSAGE value="project -cleared" />
     <MESSAGE value="model -added" />
-    <option name="LAST_COMMIT_MESSAGE" value="model -added" />
+    <MESSAGE value="project -repaired" />
+    <MESSAGE value="RandomColorRenderer jelen -done" />
+    <option name="LAST_COMMIT_MESSAGE" value="RandomColorRenderer jelen -done" />
   </component>
 </project>
